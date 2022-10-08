@@ -1,4 +1,4 @@
-# Author Joel Kessler 2
+# Author Joel Kessler
 def euclidean(a, b):
     x, y = a, b
     if a < b:
