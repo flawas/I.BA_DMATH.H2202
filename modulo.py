@@ -1,9 +1,13 @@
-# Author Flavio Waser
+# Author Flavio waser
 
-def modulo(number, mod):
-    number, mod = number, mod
-    print(number % mod)
+from operator import mod
+
+
+def modulo(number, modulo):
+    number, modulo = number, modulo
+    return number % modulo
 
 in_number = int(input("Zahl = "))
-in_mod = int(input("Modulo = "))
-modulo = modulo(in_number, in_mod)
+in_modulo = int(input("Modulo = "))
+modulo1 = modulo(in_number, in_modulo)
+print("Modulo:", modulo1)
