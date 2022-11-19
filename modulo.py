@@ -7,4 +7,4 @@ def modulo(x, y):
 in_number = float(input("Zahl = "))
 in_modulo = float(input("Modulo = "))
 modulo1 = modulo(in_number, in_modulo)
-print("Modulo:", modulo1)
+print("Rest:", modulo1)
