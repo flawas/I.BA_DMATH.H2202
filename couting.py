@@ -1,3 +1,4 @@
+# Author Flavio Waser
 count = 0
 for number in range(1000000):
     prod_digits = 1

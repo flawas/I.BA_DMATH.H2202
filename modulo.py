@@ -1,5 +1,4 @@
 # Author Flavio waser
-
 def modulo(x, y):
     x, y = x, y
     return x % y
