@@ -1,6 +1,10 @@
 # Author Flavio Waser
 import math
 
+def fakultaet(vara):
+    a = math.factorial(vara)
+    return a
 
-a = math.factorial(12)
-print (a)
+in_number1 = int(input("Zahl= "))
+fak = fakultaet(in_number1)
+print("Fakultät:", fak)
