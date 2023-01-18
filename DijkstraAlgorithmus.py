@@ -73,7 +73,6 @@ def dijkstra(edges_and_weight, start_node):
         print("------------------")
     return columns, S
 
-# Author Flavio Waser
 more_data = True
 print("Abbruch mit allen Werten = 0")
 start_point = input("Start knoten fuer Algorithmus:")

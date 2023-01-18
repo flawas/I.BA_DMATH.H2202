@@ -1,3 +1,4 @@
+
 import random
 p = int(input("p:"))
 g = int(input("g:"))
